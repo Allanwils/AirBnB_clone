@@ -16,14 +16,3 @@ Available commands:
 
 How to start it
 The Commandline Interpreter can be started by executing the command ./console.py. The console can create, destroy, and update objects. Type help within the console to get a list of command options and its function
-
-For example:
-
-root@dbc83057b72b:/AirBnB_clone# echo "help" | ./console.py
-(hbnb)
-Documented commands (type help <topic>):
-========================================
-EOF  all  count  create  destroy  help  quit  show  update
-
-(hbnb)
-root@dbc83057b72b:/AirBnB_clone#
