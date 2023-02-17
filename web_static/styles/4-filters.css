@@ -1,0 +1,23 @@
+.container .filters {
+    position: relative;
+    background: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    height: 70px;
+    width: 100%;
+}
+button {
+    position: absolute;
+    border-style: none;
+    border-radius: 4px;
+    top: 15%;
+    right: 30px;
+    font-size: 18px;
+    background: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+}
+button:hover {
+    opacity: 90%;
+}
