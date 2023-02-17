@@ -1,192 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/100-places.css">
+    <link rel="stylesheet"
+	  href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+	  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	  crossorigin="anonymous">
+    <link rel="icon" href="images/icon.png">
+  </head>
 
-<head>
-      <link rel="stylesheet" href="styles/4-common.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-footer.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-header.css" type="text/css">
-      <link rel="stylesheet" href="styles/6-filters.css" type="text/css">
-      <link rel="stylesheet" href="styles/100-places.css" type="text/css">
-      <title>AirBnB clone</title>
-      <link rel="tab icon" href="images/icon.png" type="image/png">
-</head>
+  <body>
+    <header></header>
 
-<body>
-      <header>
-            <div class="logo"></div>
-      </header>
-      <div class="container">
-            <section class="filters">
-                  <div class="locations">
-                        <h3>States</h3>
-                        <h4>Uganda, DR Congo</h4>
-                        <ul class="popover">
-                              <li>
-                                    <h2>Kampala</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
-                              <li>
-                                    <h2>Mbale</h2>
-                                    <p>One</p>
-                                    <p>two</p>
-                              </li>
-                              <li>
-                                    <h2>Mbarara</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
-                        </ul>
-                  </div>
-                  <div class="amenities">
-                        <h3>Amenities</h3>
-                        <h4>Wifi, Pets</h4>
-                        <ul class="popover">
-                              <li>
-                                    <p>Internet</p>
-                                    <p>TV</p>
-                                    <p>Kitchen</p>
-                              </li>
-                        </ul>
-                  </div>
-                  <button>Search</button>
-            </section>
-            <section class="places">
-                  <h1>Places</h1>
+    <div class="container">
+      <section class="filters">
+	<div class="locations">
+	  <h3>States</h3>
+	  <h4>ie. Texas/California...</h4>
+	  <div class="popover">
+	    <h2>Texas:</h2>
+	    <ul>
+	      <li>Houston</li>
+	      <li>Dallas</li>
+	    </ul>
+	    <h2>California:</h2>
+	    <ul>
+	      <li>Los Angeles</li>
+	      <li>San Diego</li>
+	    </ul>
+	  </div>
 
-                  <article>
-                        <h2>My home</h2>
-                        <div class="price_by_night">$10</div>
-                        <div class="information">
-                              <div class="max_guest">2 Guests</div>
-                              <div class="number_rooms">1 Bedroom</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Ovec Joe</div>
-                        <div class="description">
-                              This is a lovely 1 bedroom and 1 bathroom apartment that
-                              can accommodate 2 people. It locates at the center of
-                              Kaduna 1,1 stop to People
-                              Square, 2 stops to Bund, 3 stops to Michigan Tower
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
+	</div><div class="amenities">
+	  <h3>Amenities</h3>
+	  <h4>ie. Laundry/Internet...</h4>
+	  <ul class="popover">
+	    <li>Internet</li>
+	    <li>TV</li>
+	    <li>Kitchen</li>
+	    <li>Iron</li>
+	  </ul>
+	</div>
+	<button>Search</button>
+      </section>
 
-                  <article>
-                        <h2>Tiny house</h2>
-                        <div class="price_by_night">Free</div>
-                        <div class="information">
-                              <div class="max_guest">4 Guests</div>
-                              <div class="number_rooms">2 Bedrooms</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Allan Masiga</div>
-                        <div class="description">
-                              This is the personal residence of Bruce Wayne, who is also the superhero Batman. The
-                              residence is
-                              depicted as a large mansion on the outskirts of Gotham City and is maintained by the Wayne
-                              family's
-                              butler, Joe Ohachor.
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
+      <section class="places">
+	<h1>Places</h1>
+	<article>
+	  <div class="name_and_price">
+	    <h2>My house</h2>
+	    <div class="price_by_night">&#36;80</div>
+	  </div>
 
-                  <article>
-                        <h2>A suite</h2>
-                        <div class="price_by_night">$180</div>
-                        <div class="information">
-                              <div class="max_guest">10 Guest</div>
-                              <div class="number_rooms">4 Bedrooms</div>
-                              <div class="number_bathrooms">3 Bath</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Okoye Chinazaekpere</div>
-                        <div class="description">
-                              This is a premium quality room located in the
-                              most important area of New York. It is close to downtown
-                              commerces and has a beatiful sight of central park.
-                              You will have all the amenities you desire and will
-                              definitely enjoy a great time.
-                              By yourself, with your lover, or your family, you will
-                              feel luxury from top to bottom.
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
+	  <div class="information">
+	    <div class="max_guest">
+	      <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+	      <br>2 Guests
+	    </div>
+	    <div class="number_rooms">
+	      <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+	      <br>1 Room
+	    </div>
+	    <div class="number_bathrooms">
+	      <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+	      <br>0 Bathrooms
+	    </div>
+	  </div>
 
-            </section>
-      </div>
-      <footer>Best School</footer>
-</body>
+	  <div class="user">
+	    <strong>Owner:</strong> My Grand Mother
+	  </div>
 
-</html>
+	  <div class="description">
+	    This one-bedroom pillow fort, constructed by my creative 89-year-old grandmother, 
+            is cramped yet charming in a nostalgic sort of way. It features beds made of hand-me-down blankets,
+            but being a pillow fort, it lacks amenities such as electricity, plumbing, and internet. 
+            The only redeeming quality might be the pleasant aroma of dino chicken nuggets. 
+            It's a budget-friendly option though!
+	  </div>
+
+	  <div class="amenities">
+	    <h2>Amenities</h2>
+	    <ul>
+	      <li><p>None</p></li>
+	    </ul>
+	  </div>
+
+	  <div class="reviews">
+	    <h2>2 Reviews</h2>
+	    <h3>From Mary the September 14 2018</h3>
+	    <ul>
+	      <li>
+		<p>
+		  This delightful stay is accurately described as "cute." 
+                  I would give it five stars without hesitation!
+		</p>
+	      </li>
+	    </ul>
+	    <h3>From Claudio the August 4 2020</h3>
+	    <ul>
+	      <li>
+		<p>
+		  Oh my God, the aroma of dinosaur-shaped chicken nuggets is just delightful. 
+                  It takes me back to my childhood memories. I will definitely come back for more!
+		</p>
+	      </li>
+	    </ul>
+	  </div>
+	</article>
+
+	<article>
+	  <div class="name_and_price">
+	    <h2>Tiny house</h2>
+	    <div class="price_by_night">&#36;65</div>
+	  </div>
+
+	  <div class="information">
+	    <div class="max_guest">
+	      <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+	      <br>1 Guest
+	    </div>
+	    <div class="number_rooms">
+	      <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+	      <br>1 Room
+	    </div>
+	    <div class="number_bathrooms">
+	      <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+	      <br>2 Bathrooms
+	    </div>
+	  </div>
+
+	  <div class="user"><strong>Owner:</stron>Kalisto Ndongala</div>
+	  <div class="description">
+	    We have an old couch that's not being used at our fraternity house (Kalisto Ndongala, yeah!). 
+            We understand how difficult it is to find student housing, so we came up with a good idea. 
+            We want to offer our couch to a student in need! You're welcome to join our fraternity; 
+            we're a group of relaxed guys who throw the best Friday night parties!
+	  </div>
+
+	  <div class="amenities">
+	    <h2>Amenities</h2>
+	    <ul>
+	      <li>
+		<i class="fa fa-gamepad" aria-hidden="true"></i>
+		<p>Video games</p>
+	      </li>
+	      <li>
+		<i class="fa fa-shower" aria-hidden="true"></i>
+		<p>Shower</p>
+	      </li>
+	      <li>
+		<i class="fa fa-fire" aria-hidden="true"></i>
+		<p>Litness</p>
+	      </li>
+	    </ul>
+	  </div>
+
+	  <div class="reviews">
+	    <h2>2 Reviews</h2>
+	    <h3>From Chris the March 04 2018</h3>
+	    <ul>
+	      <li>
+		<p>
+		  I had an amazing time staying here, thank you guys so much!
+		</p>
+	      </li>
+	    </ul>
+	    <h3>From Jammie the May 11 2020</h3>
+	    <ul>
+	      <li>
+		<p>
+		  You guys understand what I mean, right? You know exactly what I'm talking about. 
+                  Keep the good vibes going.
+		</p>
+	      </li>
+	    </ul>
+	  </div>
+	</article>
+
+	<article>
+	  <div class="name_and_price">
+	    <h2>A suite</h2>
+	    <div class="price_by_night">&#36;190</div>
+	  </div>
+
+	  <div class="information">
+	    <div class="max_guest">
+	      <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+	      <br>1 Guest
+	    </div>
+	    <div class="number_rooms">
+	      <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+	      <br>4 Rooms
+	    </div>
+	    <div class="number_bathrooms">
+	      <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+	      <br>1 Bathrooms
+	    </div>
+	  </div>
+
+	  <div class="user">
+	    <strong>Owner:</strong> Avocado &#38; Alpaca Spiritualist
+	  </div>
+
+	  <div class="description">
+	    Greetings! It appears that you are currently reading this text, am I correct? 
+            I have a strong feeling that you might be my soulmate. If that's the case, then I eagerly await your presence. 
+            I'm searching for someone like you, a kindred spirit who shares my devotion to spirituality. 
+            Perhaps you are someone who lovingly tends to your avocado trees every morning or 
+            can't stand being away from your herd of 17 alpacas even for a single day. 
+            If you can relate to this description, then I welcome you to join me and my spirit. 
+            As a token of my sincerity, I have even prepared two boiled eggs for you.
+	  </div>
+
+	  <div class="amenities">
+	    <h2>Amenities</h2>
+	    <ul>
+	      <li>
+		<i class="fa fa-heart" aria-hidden="true"></i>
+		<p>Love</p>
+	      </li>
+	    </ul>
+	  </div>
+
+	  <div class="reviews">
+	    <h2>3 Reviews</h2>
+	    <h3>From Boyd the January 14 2020</h3>
+	    <ul>
+	      <li>
+		<p>
+		  My beloved, it is I who is approaching.
+		</p>
+	      </li>
+	    </ul>
+	    <h3>From Annet the  February 19 2020</h3>
+	    <ul>
+	      <li>
+		<p>
+		  When you greeted me with "Hi there," I was immediately captivated. 
+                  And then you further piqued my interest by mentioning that you had prepared 
+                  two boiled eggs..
+		</p>
+	      </li>
+	    </ul>
+	    <h3>From Oscar the April 12 2020</h3>
+	    <ul>
+	      <li>
+		<p>
+		  Even though I had lost hope of finding you, I am now here after 
+                  taking care of my avocado trees. I'm experiencing a completely new 
+                  and amazing sensation that I've never felt before in my life.
+		</p>
+	      </li>
+	    </ul>
+	  </div>
+	</article>
+      </section>
+    </div>
+
+    <footer>
+      Best School
+    </footer>
+  </body>
+  </html>

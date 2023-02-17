@@ -1,194 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-      <link rel="stylesheet" href="styles/4-common.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-footer.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-header.css" type="text/css">
-      <link rel="stylesheet" href="styles/6-filters.css" type="text/css">
-      <link rel="stylesheet" href="styles/101-places.css" type="text/css">
-      <title>AirBnB clone</title>
-      <link rel="tab icon" href="images/icon.png" type="image/png">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/102-common.css">
+    <link rel="stylesheet" href="./styles/102-header.css">
+    <link rel="stylesheet" href="./styles/102-footer.css">
+    <link rel="stylesheet" href="./styles/102-filters.css">
+    <link rel="stylesheet" href="./styles/102-places.css">
+    <title>Airbnb Clone</title>
 </head>
-
-<body>
-      <header>
-            <div class="logo"></div>
-      </header>
-      <div class="container">
+    <body>
+        <header>
+        </header>
+        <div class="container">
             <section class="filters">
-                  <div class="locations">
-                        <h3>States</h3>
-                        <h4>Uganda, DR Congo</h4>
-                        <ul class="popover">
-                              <li>
-                                    <h2>Kampala</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
-                              <li>
-                                    <h2>Mbale</h2>
-                                    <p>One</p>
-                                    <p>two</p>
-                              </li>
-                              <li>
-                                    <h2>Mbarara</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
+                <div class="locations">
+                    <h3>States</h3>
+                    <h4>Alabama, Georgia...</h4>
+                    <div class="popover">
+                        <ul>
+                            <h2>Georgia:</h2>
+                            <li>page 1</li>
+                            <li>page 2</li>
                         </ul>
-                  </div>
-                  <div class="amenities">
-                        <h3>Amenities</h3>
-                        <h4>Wifi, Pets</h4>
-                        <ul class="popover">
-                              <li>
-                                    <p>Internet</p>
-                                    <p>TV</p>
-                                    <p>Kitchen</p>
-                              </li>
+                        <ul>
+                            <h2>Alabama:</h2>
+                            <li>Birmingham</li>
+                            <li>page 2</li>
                         </ul>
-                  </div>
-                  <button>Search</button>
+                    </div>
+                </div>
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                    <div class="popover">
+                        <ul>
+                            <li>Internet</li>
+                            <li>Kitchen</li>
+                            <li>Icon</li>
+                            <li>Bathroom</li>
+                        </ul>
+                    </div>
+                </div>
+                <button>Search</button>
             </section>
             <section class="places">
-                  <h1>Places</h1>
-
-                  <article>
+                <h1>Places</h1>
+                <article>
+                    <div class="name_and_price">
                         <h2>My home</h2>
-                        <div class="price_by_night">$10</div>
-                        <div class="information">
-                              <div class="max_guest">2 Guests</div>
-                              <div class="number_rooms">1 Bedroom</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
+                        <div class="price_by_night">&#36;80</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                           2 guests
                         </div>
-                        <div class="user"><b>Owner</b>: Allan Masiga</div>
-                        <div class="description">
-                              This is a lovely 1 bedroom and 1 bathroom apartment that
-                              can accommodate 2 people. It locates at the center of
-                              Kampala  1,1 stop to Station
-                              Square, 2 stops to Bund, 3 stops to Station House
+                        <div class="number_rooms">
+                           2 guests
                         </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
+                        <div class="number_bathrooms">
+                           2 guests
                         </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
-                  <article>
+                    </div>
+                    <div class="user">
+                        <p><strong>Owner:</strong>Evans McArther</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Praesentium ducimus maxime sequi quasi facere est? Pariatur velit, a, sint placeat odio,                             culpa itaque non ipsam ipsum reprehenderit quisquam. Voluptate, tempora.</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>TV</li>
+                            <li>Wifi</li>
+                            <li>Pet friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From McKenzie Jones the 13th February 2018</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </li>
+                            <li>
+                                <h3>From McKenzie Jones the 13 February 2018</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Nulla obcaecati culpa commodi.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="name_and_price">
                         <h2>Tiny house</h2>
-                        <div class="price_by_night">Free</div>
-                        <div class="information">
-                              <div class="max_guest">4 Guests</div>
-                              <div class="number_rooms">2 Bedrooms</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
+                        <div class="price_by_night">&#36;65</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                           2 guests
                         </div>
-                        <div class="user"><b>Owner</b>: Allan One</div>
-                        <div class="description">
-                              This is the personal residence of Bruce Wayne, who is also the superhero Batman. The
-                              residence is
-                              depicted as a large mansion on the outskirts of Gotham City and is maintained by the Wayne
-                              family's
-                              butler, Joe Ohachor.
+                        <div class="number_rooms">
+                           2 guests
                         </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                              </ul>
+                        <div class="number_bathrooms">
+                           2 guests
                         </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
-                  <article>
+                    </div>
+                    <div class="user">
+                        <p><strong>Owner:</strong>Evans McArther</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Explicabo eos illo saepe eligendi ab quod dolore atque quaerat aliquam et! 
+                           In, fuga distinctio. Impedit temporibus soluta molestias nisi ipsa tenetur 
+                           corporis vero quaerat, qui, consectetur voluptates amet sed voluptatem pariatur laborum                            reprehenderit ipsum maiores eum facilis facere cupiditate cum autem!</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>Pet friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>McKenzie Jones the 13th January 2018</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                   Cumque veritatis ullam qui accusamus deleniti fugit dolores eaque maiores, 
+                                   at officiis ipsa culpa, eius quasi quidem totam. 
+                                   Et ipsum asperiores dolorum illo aspernatur, 
+                                   magni enim porro deleniti saepe esse recusandae? 
+                                   Repellendus porro necessitatibus et adipisci rem 
+                                   a dignissimos modi pariatur ab.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="name_and_price">
                         <h2>A suite</h2>
-                        <div class="price_by_night">$180</div>
-                        <div class="information">
-                              <div class="max_guest">10 Guest</div>
-                              <div class="number_rooms">4 Bedrooms</div>
-                              <div class="number_bathrooms">3 Bath</div>
+                        <div class="price_by_night">&#36;190</div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                           2 guests
                         </div>
-                        <div class="user"><b>Owner</b>: Allan Two</div>
-                        <div class="description">
-                              This is a premium quality room located in the
-                              most important area of New York. It is close to downtown
-                              commerces and has a beatiful sight of central park.
-                              You will have all the amenities you desire and will
-                              definitely enjoy a great time.
-                              By yourself, with your lover, or your family, you will
-                              feel luxury from top to bottom.
+                        <div class="number_rooms">
+                           2 guests
                         </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
+                        <div class="number_bathrooms">
+                           2 guests
                         </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 16th February 2023</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
+                    </div>
+                    <div class="user">
+                        <p><strong>Owner:</strong>Evans McArther</p>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Explicabo eos illo saepe eligendi ab quod dolore atque quaerat aliquam et! 
+                           In, fuga distinctio. Impedit temporibus soluta molestias nisi 
+                           ipsa tenetur corporis vero quaerat, qui, consectetur voluptates amet sed voluptatem                            pariatur laborum reprehenderit ipsum maiores eum facilis facere cupiditate cum autem!                           </p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li>TV</li>
+                            <li>Wifi</li>
+                            <li>Pet friendly</li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From McKenzie Jones the 13th February 2018</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </li>
+                            <li>
+                                <h3>From McKenzie Jones the 13th February 2017</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                   Nulla obcaecati culpa commodi.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
             </section>
-      </div>
-      <footer>Best School</footer>
-</body>
-
+        </div>
+        <footer>
+        Best School
+        </footer>
+    </body>
 </html>
